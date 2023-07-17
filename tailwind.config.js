@@ -7,3 +7,10 @@ export default {
   plugins: [],
 }
 
+module.exports = {
+    content: [],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+}
