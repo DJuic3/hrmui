@@ -22,7 +22,20 @@ Route::get('/form', function () {
 });
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('beneficiaries');
+});
+
+Route::get('/personal-details', function () {
+    return view('personalDetails');
+})->name('personal-details');
+
+
+Route::get('/contactDetails', function () {
+    return view('contactDetails');
+});
+
+Route::get('/nationalityDetails', function () {
+    return view('nationalityDetails');
 });
 
 
